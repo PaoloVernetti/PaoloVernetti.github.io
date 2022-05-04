@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.0.1...v1.0.2) (2022-05-04)
+
+
+### Bug Fixes
+
+* removing mixing meta.js to test seo tags working directly from components ([d0b54af](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/d0b54af2f9f9564ef251cb072ae762d982a19807))
+
 ### [1.0.1](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.0.0...v1.0.1) (2022-05-04)
 
 
