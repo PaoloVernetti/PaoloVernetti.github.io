@@ -5,31 +5,20 @@
       <header>
         <nav>
           <ul>
-            <nuxt-link class="link" :to="localePath('index')">{{ $t('nav.index.title') }}</nuxt-link>
-            <nuxt-link class="link" :to="localePath('portfolio')">{{ $t('nav.portfolio.title') }}</nuxt-link>
+            <nuxt-link class="link" :to="{ path: '/' }">Главная</nuxt-link>
+            <nuxt-link class="link" :to="{ path: '/portfolio' }">Портфолио</nuxt-link>
           </ul>
         </nav>
       </header>
-      <Nuxt/>
+      <slot />
     </div>
   </div>
 </template>
 
 
-<script>
-export default {
-  name: "Layout",
-  data() {
-    return {}
-  },
-  computed: {
-    getNavRoutes() {
-      console.log(this.$nuxt.$router.options.routes.filter(el => el.name === "index" || el.name === "portfolio").sort((a, b) => a.name[0] > b.name[0]))
-      return this.$nuxt.$router.options.routes.filter(el => el.name === "index" || el.name === "portfolio").sort((a, b) => a.name[0] < b.name[0])
-    }
-  },
-  mounted() {
-    var canvas = document.getElementById('back'),
+<script setup>
+onMounted(() => {
+  var canvas = document.getElementById('back'),
       ctx = canvas.getContext('2d');
 
     canvas.width = window.innerWidth;
@@ -70,8 +59,7 @@ export default {
       canvas.height = window.innerHeight;
       rain = setInterval(draw, 100);
     })
-  },
-}
+})
 </script>
 
 <style>
@@ -118,12 +106,14 @@ nav > ul {
 }
 
 nav > ul > .link {
-  color: rgba(47, 54, 64, .8);
+  color: rgba(47, 54, 64, .9);
   font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   height: 60px;
   text-transform: uppercase;
   text-decoration: none;
