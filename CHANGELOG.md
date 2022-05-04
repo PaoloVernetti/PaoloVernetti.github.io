@@ -1,3 +1,10 @@
+### [1.1.1](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.1.0...v1.1.1) (2022-05-04)
+
+
+### Bug Fixes
+
+* adding script to optimize bad links ([f875a23](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/f875a235c6c915fdcd9e982bdf16c3fc5cee7670))
+
 ## [1.1.0](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.0.2...v1.1.0) (2022-05-04)
 
 
