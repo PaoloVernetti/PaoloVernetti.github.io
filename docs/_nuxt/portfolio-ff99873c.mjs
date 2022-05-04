@@ -1,0 +1,1 @@
+import{_ as r,d as s,o as n,c as a}from"./entry-e3fd1125.mjs";const p={setup(t,{expose:o}){o(),s({name:"Portfolio"});const e={};return Object.defineProperty(e,"__isScriptSetup",{enumerable:!1,value:!0}),e}},_={class:"page"};function c(t,o,e,i,f,l){return n(),a("div",_," portfolio page ")}var d=r(p,[["render",c]]);export{d as default};

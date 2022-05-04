@@ -1,3 +1,16 @@
+## [1.1.0](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.0.2...v1.1.0) (2022-05-04)
+
+
+### Features
+
+* migrate project from nuxt 2 to 3rd ([e094844](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/e094844916c4e494e433be7f44709f957639ac9c))
+
+
+### Bug Fixes
+
+* adding command postgenerate for moving dist from .output to docs ([a16db97](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/a16db97d169bd4eaefc17a27452fa08551b6a8d2))
+* installing missing semantic-release preset ([4cdc362](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/4cdc362077eacc9d581342a5df9338c59ee5e148))
+
 ### [1.0.2](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.0.1...v1.0.2) (2022-05-04)
 
 
