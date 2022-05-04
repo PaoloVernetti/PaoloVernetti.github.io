@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{321:function(n,e,t){"use strict";t.r(e);var c={name:"IndexPage",mounted:function(){}},l=t(75),component=Object(l.a)(c,(function(){var n=this,e=n.$createElement;return(n._self._c||e)("p",{staticStyle:{color:"red"}},[n._v("\n  this is index page\n")])}),[],!1,null,null,null);e.default=component.exports}}]);
