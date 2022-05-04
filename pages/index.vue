@@ -28,6 +28,18 @@ useHead({
   charset: 'utf-8'
 })
 
+async function kek() {
+  let mm = await $fetch('/api/healthcare', { method: "get" });
+
+  return mm;
+}
+
+onMounted(() => {
+  kek().then(res => {
+    console.log(res);
+  })
+}),
+
 defineComponent({
   name: "Index"
 })

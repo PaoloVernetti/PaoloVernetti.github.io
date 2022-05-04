@@ -12,8 +12,8 @@
   },
   "scripts": {
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "postgenerate": "node scripts/move.output.to.docs.js",
+    "build": "nuxt build",
+    "start": "nuxt start",
     "release": "semantic-release"
   },
   "devDependencies": {

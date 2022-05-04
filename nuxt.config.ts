@@ -1,9 +1,9 @@
 import { defineNuxtConfig } from "nuxt";
 
 export default defineNuxtConfig({
-  ssr: false,
+  ssr: true,
 
-  target: "static",
+  target: "server",
 
   head: {
     meta: [
