@@ -12,7 +12,9 @@
   },
   "scripts": {
     "dev": "nuxt dev",
+    "prebuild": "npm install",
     "build": "nuxt build",
+    "release:build": "nuxt build",
     "start": "nuxt start",
     "release": "semantic-release"
   },

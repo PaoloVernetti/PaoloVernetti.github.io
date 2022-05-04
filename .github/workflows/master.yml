@@ -24,7 +24,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npm run generate
+      - run: npm run release:build
 
   release:
     needs: [build]
@@ -43,5 +43,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm ci
-      - run: npm run generate
+      - run: npm run release:build
       - run: npm run release
