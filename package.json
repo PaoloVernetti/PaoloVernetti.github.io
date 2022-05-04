@@ -14,7 +14,6 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "postgenerate": "node scripts/move.output.to.docs.js",
-    "prerelease": "node scripts/optimize.links.js",
     "release": "semantic-release"
   },
   "devDependencies": {
