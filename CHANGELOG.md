@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.1.2...v1.2.0) (2022-05-04)
+
+
+### Features
+
+* adding ssr and healthcare endpoint for Render ([80bcbb4](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/80bcbb449d75deaeb35802e411b14df8a9d51d66))
+
+
+### Bug Fixes
+
+* adding prebuild command for Render and release:build for Semantic-release ([1c2329e](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/1c2329e3711f8b2f78eac40f63931424a6da9d35))
+
 ### [1.1.2](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.1.1...v1.1.2) (2022-05-04)
 
 
