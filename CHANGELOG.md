@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.0.0...v1.0.1) (2022-05-04)
+
+
+### Bug Fixes
+
+* adding docs folder to assets of semantic-release/git to upload it to github after generation and release ([0b74149](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/0b74149039ef2978d45fce1af722fb210ff20e58))
+
 ## 1.0.0 (2022-05-04)
 
 
