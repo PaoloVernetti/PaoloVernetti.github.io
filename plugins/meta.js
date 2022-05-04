@@ -8,6 +8,9 @@ if (!Vue.__my_mixin__) {
   Vue.mixin({
     head () {
       return {
+        htmlAttrs: {
+          lang: this.$nuxt.$i18n.locale
+        },
         title: 'Paolo Vernetti - ' + this.$t(`nav.${this.currentRouteName}.title`),
         meta: [
           {
