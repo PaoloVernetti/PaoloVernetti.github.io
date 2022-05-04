@@ -7,9 +7,9 @@
     <Meta name="og:title" property="og:title" content="Paolo Vernetti - Главная страница" />
     <Meta name="og:type" property="og:type" content="website" />
     <Meta name="og:description" property="og:description" content="Это личный веб-сайт о моем опыте в разработке, дизайне и почти обо всем, что меня интересует. Место, где я пишу о своем опыте в разработке, дизайне и почти обо всем, что меня интересует." />
-    <Meta name="og:url" property="og:url" content="https://paolovernetti.github.io/" />
+    <Meta name="og:url" property="og:url" content="https://paolo-vernetti-website.onrender.com/" />
     <Meta name="og:site_name" property="og:site_name" content="Paolo Vernetti - Личный сайт" />
-    <Meta name="og:image" property="og:image" content="https://paolovernetti.github.io/seoimage.png" />
+    <Meta name="og:image" property="og:image" content="https://paolo-vernetti-website.onrender.com/metaimage.png" />
     
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
