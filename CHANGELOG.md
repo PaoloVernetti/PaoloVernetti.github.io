@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.2.0...v1.2.1) (2022-05-04)
+
+
+### Bug Fixes
+
+* refactor meta tags, some ci changes ([ed4e4dd](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/ed4e4dd53c030fe8532ef9cc83c678be2cf17b46))
+
 ## [1.2.0](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.1.2...v1.2.0) (2022-05-04)
 
 
