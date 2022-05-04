@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.2.1...v1.3.0) (2022-05-04)
+
+
+### Features
+
+* adding action for deploy ([2e1eaa3](https://github.com/PaoloVernetti/PaoloVernetti.github.io/commit/2e1eaa3b1dd0a9217e0b959a7cff67e1913218fc))
+
 ### [1.2.1](https://github.com/PaoloVernetti/PaoloVernetti.github.io/compare/v1.2.0...v1.2.1) (2022-05-04)
 
 
