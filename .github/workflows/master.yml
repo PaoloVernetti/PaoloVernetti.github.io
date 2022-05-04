@@ -44,3 +44,13 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run release
+
+  deploy:
+    needs: [release]
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl
+        uses: wei/curl@master
+        with:
+          args: ${{ secrets.DEPLOY_TRIGGER_URL }}

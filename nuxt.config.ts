@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   plugins: [],
   modules: ["@nuxtjs/sitemap"],
   sitemap: {
-    hostname: "https://paolovernetti.github.io/",
+    hostname: "https://paolo-vernetti-website.onrender.com/",
     gzip: true,
   },
   build: {},
